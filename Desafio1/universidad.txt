@@ -1,0 +1,12 @@
+Objetos Tangibles: Edificio, Estudiantes, Profesores, Personal de Administración, Personal de limpieza, Autos
+Objetos Intangibles: Nombre de la Universidad, Materias, Notas de los Estudiantes 
+Atributos Estudiante: Nombre, Apellido, Sexo, Cedula, Carrera 
+Atributos Universidad como instituto: Nombre, RIF, Dueño, Rector, Documentos 
+Metodos Estudiante: Estudiar, Ir a Clases, Realizar Evaluaciones
+Metodos Universidad (Compañia): Inscribir Estudiante, Pagar Nomina, Entregar Titulo 
+Clase persona: Agrupa Estudiantes y Profesores
+Atributos: Nombre, Apellido, Cedula, Sexo, Edad 
+Metodos: Leer, Hablar, Caminar 
+Clase Institución: Agrupa Decanatos
+ Atributos: Nombre, Rectores
+Metodos: Pagar Nomina, Hacer Documentación, Contratar Empleados

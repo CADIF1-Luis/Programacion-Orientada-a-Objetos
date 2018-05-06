@@ -1,0 +1,49 @@
+Banco:
+  1.- Objetos Tangibles:
+    * Local Comercial
+    * Computadoras
+    * Cajeros
+    * Cheques
+    * Efectivo
+  1.- Objetos Intangibles:
+    * Banco como compañia
+    * Software bancario
+    * Inversiones
+    * Cuentas bancarias
+    * Sistemas Operativos en las Computadoras
+
+  2.- Atributos Clase Banco:
+    * Nombre (alfanumerico)
+    * Nombre del Presidente (alfanumero)
+    * RIF (entero)
+    * Fecha de Fundacion (entero)
+    * Dinero Total (real)
+    * TienePlataformaOnline? (logico)
+    3.-
+      * Cajeros (Clase Cajero)
+      * Presidente (Clase Presidente)
+      4.- * Clientes (Coleccion Clase Cliente)
+
+3.- Clase Cliente:
+  Atributos:
+    * Nombre (alfanumerico)
+    * Apellido (alfanumerico)
+    * Numero de Cuenta (entero)
+
+3.- Clase Cajero (Hereda de la Clase Empleado):
+  Atributos:
+    * NumeroCajero (entero)
+    * Jefe (Clase Empleado)
+    * Area (alfanumerico)
+
+3.- Clase Presidente (Hereda de la Clase Empleado):
+  Atributos:
+    4.- * Subordinados (Coleccion Empleados)
+    * Direccion Oficina (alfanumerico)
+
+5.- Clase Empleado (Heredan Clases Presidente y Cajero):
+  Atributos:
+    * Nombre (alfanumerico)
+    * Apellido (alfanumerico)
+    * Fecha Contratacion (Clase Fecha)
+    * Sueldo (real)

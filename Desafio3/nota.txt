@@ -1,0 +1,2 @@
+Profesor no pude crear objetos de la clase Adult por que causaban que se me cerrara el programa. 
+Use otros objetos de las clases Odin, Thor y Valkiria como substitutos.
